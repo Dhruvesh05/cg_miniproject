@@ -1,54 +1,42 @@
-# 📈 Graph Plotter in C++
+<h1 align="center">🎨 Computer Graphics Mini Project</h1>
 
-This is a C++ Graphics project that allows users to **visually plot various mathematical graphs** using the Turbo C++/graphics.h library. The application is built using **object-oriented programming (OOP)** principles, demonstrating inheritance and polymorphism through multiple graph types.
+<p align="center">
+  <img src="https://img.shields.io/github/languages/top/Dhruvesh05/cg_miniproject?style=for-the-badge&color=blueviolet" />
+  <img src="https://img.shields.io/github/repo-size/Dhruvesh05/cg_miniproject?style=for-the-badge" />
+  <img src="https://img.shields.io/github/last-commit/Dhruvesh05/cg_miniproject?style=for-the-badge&color=brightgreen" />
+</p>
 
----
-
-## 🚀 Features
-
-✅ Plot the following types of graphs:
-- **Line** (Linear Equation: `y = mx + c`)
-- **Parabola** (`y = ax² + bx + c`)
-- **Ellipse**
-- **Hyperbola**
-- **Sine Wave**
-- **Cosine Wave**
-- **Logarithmic Curve**
-
-✅ Custom axis with **X and Y markings**
-
-✅ Organized code using:
-- Abstract base class `Graph`
-- Derived classes for each type of graph
-- Utility class `GraphPlotter` for managing rendering
-
-✅ Uses **graphics.h** to draw on a graphical window
+<p align="center">
+  A visually rich and interactive graphics mini project built using <strong>C++ and OpenGL</strong>. Designed as part of my Computer Graphics coursework, this project demonstrates 2D/3D rendering, user interaction, and fundamental CG concepts.
+</p>
 
 ---
 
-## 🛠 Tech Stack
+## 💡 Features
 
-- **Language:** C++
-- **Graphics Library:** `graphics.h` (Turbo C++/WinBGIm)
-
----
-
-## 📸 Demo
-
-![Graph Plotter Demo](your-demo-image-url-if-any.gif)
+- 🧱 Object Drawing & Rendering  
+- 🌀 Animations & Transformations  
+- 🎯 Interactive User Controls (keyboard/mouse)  
+- 🌈 Colorful UI and scene transitions  
+- 🪟 Built with C++ + OpenGL (GLUT)
 
 ---
 
-## 💻 How to Run
+## 🛠️ Tech Stack
 
-### 📌 Requirements
+- 🔧 C++  
+- 🖼️ OpenGL (GLUT/GLFW)  
+- 🧩 Visual Studio Code / Code::Blocks  
+- 💻 Windows / Linux Compatible  
 
-- Turbo C++ or any C++ compiler that supports `graphics.h`
-- Or use [WinBGIm](http://winbgim.codecutter.org/) with modern IDEs (e.g., Code::Blocks)
+---
 
-### ⚙️ Setup Instructions
+## 🚀 Run Locally
 
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/your-username/graph-plotter-cpp.git
-   cd graph-plotter-cpp
+> Make sure you have OpenGL and a C++ compiler installed
+
+### 🧱 Build & Run (Linux example)
+
+```bash
+g++ main.cpp -o output -lGL -lGLU -lglut
+./output
