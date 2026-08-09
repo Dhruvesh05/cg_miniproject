@@ -187,7 +187,7 @@ int main() {
     initgraph(&gd, &gm, "");
 
     int choice;
-    cout << "Graph Plotter\n";
+    cout << "Graph Plotter - Computer Graphics\n";
     cout << "1. Plot Line (y = mx + c)\n";
     cout << "2. Plot Parabola (y = ax^2 + bx + c)\n";
     cout << "3. Plot Ellipse\n";
